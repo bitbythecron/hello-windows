@@ -23,6 +23,8 @@ dependencies {
 
         ,'org.projectlombok:lombok:1.18.8'
 
+        ,'org.apache.poi:poi-ooxml:4.1.1'
+
         ,'com.jgoodies:jgoodies-forms:1.9.0'
 
         ,'com.google.inject:guice:4.2.2'
