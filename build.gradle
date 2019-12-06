@@ -72,7 +72,7 @@ launch4j {
     maxHeapSize = 512
     stayAlive = false
     bundledJre64Bit = true
-    bundledJrePath = "${projectDir}/libs/jre8/bin/javaw.exe"
+    bundledJrePath = '../hello-windows/jre8'
 }
 
 task createDistro(type: Zip) {
