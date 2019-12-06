@@ -72,7 +72,7 @@ launch4j {
     maxHeapSize = 512
     stayAlive = false
     bundledJre64Bit = true
-    bundledJrePath = '../hello-windows/jre8'
+    bundledJrePath = './jre8'
 }
 
 task createDistro(type: Zip) {
@@ -85,7 +85,7 @@ task createDistro(type: Zip) {
     }
 
     from("libs/jre8") {
-        include "*/*" into "jre8"
+        include "**/*" into "jre8"
     }
 
     archiveName = "hello-windows.zip"
